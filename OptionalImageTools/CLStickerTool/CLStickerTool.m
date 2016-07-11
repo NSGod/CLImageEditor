@@ -42,6 +42,7 @@ static NSString* const kCLStickerToolDeleteIconName = @"deleteIconAssetsName";
 
 + (BOOL)isAvailable
 {
+	return NO;
     return ([UIDevice iosVersion] >= 5.0);
 }
 

@@ -38,7 +38,7 @@ static NSString* const kCLSplashToolEraserIconName = @"eraserIconAssetsName";
 
 + (BOOL)isAvailable
 {
-    return YES;
+    return NO;
 }
 
 + (CGFloat)defaultDockedNumber

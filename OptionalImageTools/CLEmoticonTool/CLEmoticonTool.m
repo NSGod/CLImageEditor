@@ -43,7 +43,8 @@ static NSString* const kCLEmoticonToolDeleteIconName = @"deleteIconAssetsName";
 
 + (BOOL)isAvailable
 {
-    return ([UIDevice iosVersion] >= 5.0);
+	return false;
+    //return ([UIDevice iosVersion] >= 5.0);
 }
 
 + (CGFloat)defaultDockedNumber

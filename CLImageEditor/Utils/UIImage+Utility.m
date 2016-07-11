@@ -216,6 +216,8 @@
 - (UIImage*)gaussBlur:(CGFloat)blurLevel
 {
     blurLevel = MIN(1.0, MAX(0.0, blurLevel));
+	//NSLog(@"Blurlevel: %f", blurLevel);
+	blurLevel *= 3.0;
     
     int boxSize = (int)(blurLevel * 0.1 * MIN(self.size.width, self.size.height));
     boxSize = boxSize - (boxSize % 2) + 1;

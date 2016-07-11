@@ -62,6 +62,11 @@ typedef NS_ENUM(NSUInteger, CLBlurType)
     return [CLImageEditorTheme localizedString:@"CLBlurEffect_DefaultTitle" withDefault:@"Blur & Focus"];
 }
 
++ (CGFloat)defaultDockedNumber
+{
+	return 0.0;
+}
+
 + (BOOL)isAvailable
 {
     return ([UIDevice iosVersion] >= 5.0);

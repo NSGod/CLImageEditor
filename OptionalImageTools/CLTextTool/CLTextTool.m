@@ -85,7 +85,7 @@ static NSString* const kCLTextToolAlignRightIconName = @"alignRightIconAssetsNam
 
 + (CGFloat)defaultDockedNumber
 {
-    return 8;
+	return 0.2;
 }
 
 #pragma mark- optional info
